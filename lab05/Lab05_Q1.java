@@ -62,7 +62,7 @@ public class Lab05_Q1 {
                         checkers = checkers * 11;
                     }
                     }
-                if( checkers % 2*3*5*7*11 == 0){
+                if(checkers %2 == 0 && checkers %3 == 0 && checkers %5 == 0 && checkers %7 == 0 && checkers %11 == 0){
                     System.out.printf("%s is a vowel word!\n",word);
                 }
                 else{
